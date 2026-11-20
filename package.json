@@ -1,0 +1,7 @@
+{
+  "name": "ifruit-learn",
+  "version": "1.0.0",
+  "description": "iFruit OS single-file builds (HTML + SVG)",
+  "files": ["learn-1.html", "learn-1.svg", "README.md"],
+  "license": "MIT"
+}
