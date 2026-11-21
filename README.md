@@ -16,8 +16,8 @@ These are file contents, not the interactive app. A CDN may show the HTML source
 
 ## Run the educational demo
 
-- Render: https://ifruit-learn-demo.onrender.com/learn-1.html
-- GitHub Pages backup: https://prismdev3.github.io/ifruit-learn/learn-1.html
+- Current GitHub Pages demo: https://prismdev3.github.io/ifruit-learn/learn-1.html
+- Render copy: https://ifruit-learn-demo.onrender.com/learn-1.html
 - Link page: https://ifruit-learn-demo.onrender.com/
 
 The published demo opens at its welcome screen without requiring a password.
