@@ -1,0 +1,8 @@
+services:
+  - type: web
+    runtime: static
+    name: ifruit-learn-demo
+    branch: main
+    buildCommand: echo "Publishing checked-in public build"
+    staticPublishPath: ./site
+    autoDeployTrigger: commit

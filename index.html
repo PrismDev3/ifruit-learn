@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#100d18">
+  <meta name="description" content="Public build, CDN, and hosting links for the iFruit OS browser desktop demo.">
+  <title>iFruit OS — Public links</title>
+  <style>
+    :root { color-scheme: dark; --bg:#100d18; --panel:#181421; --line:#352b40; --ink:#f4eef7; --dim:#c1b6c9; --pink:#ff77ad; --mint:#72e2d2; }
+    * { box-sizing:border-box }
+    body { margin:0; min-height:100vh; background:radial-gradient(ellipse at 82% 0%,#322039 0,transparent 34rem),var(--bg); color:var(--ink); font:16px/1.55 system-ui,-apple-system,"Segoe UI",sans-serif; }
+    a { color:var(--mint); text-decoration-thickness:1px; text-underline-offset:4px }
+    a:hover { color:#a6fff0 }
+    a:focus-visible { outline:2px solid var(--pink); outline-offset:4px; border-radius:3px }
+    .wrap { width:min(100% - 36px,960px); margin:0 auto; padding:26px 0 58px }
+    header { display:flex; align-items:center; gap:12px; padding-bottom:60px }
+    .mark { width:42px;height:42px;display:grid;place-items:center;border:1px solid #65516d;border-radius:14px;color:var(--pink);font-weight:800;letter-spacing:-.06em;background:#211827 }
+    .brand { font-weight:700; letter-spacing:.01em }
+    .brand small { display:block; color:var(--dim); font-size:12px; font-weight:500; letter-spacing:.04em }
+    main { max-width:760px }
+    h1 { max-width:12ch; margin:0 0 16px; font-size:clamp(38px,7vw,66px); line-height:1.02; letter-spacing:-.045em }
+    .intro { max-width:62ch; margin:0; color:var(--dim); font-size:17px }
+    .notice { margin:28px 0 50px; padding:15px 18px; border:1px solid var(--line); border-radius:14px; background:rgba(24,20,33,.75); color:var(--dim); font-size:14px }
+    section { margin-top:46px }
+    h2 { margin:0 0 6px; font-size:23px; letter-spacing:-.025em }
+    .sub { margin:0 0 16px; color:var(--dim); font-size:14px }
+    .rows { border-top:1px solid var(--line) }
+    .row { display:grid; grid-template-columns:minmax(130px,190px) minmax(0,1fr); gap:20px; padding:14px 2px; border-bottom:1px solid var(--line); align-items:baseline }
+    .label { color:var(--dim); font-size:14px }
+    .links { display:flex; flex-wrap:wrap; column-gap:19px; row-gap:8px; min-width:0 }
+    .links a { overflow-wrap:anywhere }
+    .run { display:inline-flex; align-items:center; min-height:45px; margin-top:8px; padding:0 17px; border:1px solid #ff9bc2; border-radius:10px; background:#4a243a; color:#fff3f8; font-weight:650; text-decoration:none; transition:background .16s ease,transform .16s ease }
+    .run:hover { background:#63304d; color:white; transform:translateY(-1px) }
+    code { color:#f6d3e4; font:13px/1.5 ui-monospace,SFMono-Regular,Consolas,monospace }
+    footer { margin-top:56px; padding-top:18px; border-top:1px solid var(--line); color:#b4a8bd; font-size:13px }
+    @media(max-width:600px) {
+      .wrap { width:min(100% - 28px,960px); padding-top:18px }
+      header { padding-bottom:42px }
+      .row { grid-template-columns:1fr; gap:5px }
+      .intro { font-size:16px }
+      .notice { margin-bottom:40px }
+    }
+    @media(prefers-reduced-motion:reduce) { *,*::before,*::after { scroll-behavior:auto!important; transition:none!important } }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="mark" aria-hidden="true">iF</div>
+      <div class="brand">iFruit OS<small>PUBLIC BUILD LINKS</small></div>
+    </header>
+    <main>
+      <h1>Build files and launch links.</h1>
+      <p class="intro">iFruit OS is a browser-based desktop simulation inspired by the iFruit universe. This page lists its published demo files, CDN copies, and hosting options.</p>
+      <p class="notice">The standalone files bundle the app shell. The complete local game and media asset library is not included in this small public build, so some previews and games may need their original hosts or a full asset deployment.</p>
+
+      <section aria-labelledby="source-title">
+        <h2 id="source-title">Source and CDN</h2>
+        <p class="sub">Open or download the published HTML and SVG builds.</p>
+        <div class="rows">
+          <div class="row"><span class="label">Build repository</span><div class="links"><a href="https://github.com/PrismDev3/ifruit-learn">GitHub files</a></div></div>
+          <div class="row"><span class="label">jsDelivr</span><div class="links"><a href="https://cdn.jsdelivr.net/gh/PrismDev3/ifruit-learn@main/learn-1.html">HTML</a><a href="https://cdn.jsdelivr.net/gh/PrismDev3/ifruit-learn@main/learn-1.svg">SVG</a></div></div>
+          <div class="row"><span class="label">GitHub raw</span><div class="links"><a href="https://raw.githubusercontent.com/PrismDev3/ifruit-learn/main/learn-1.html">HTML</a><a href="https://raw.githubusercontent.com/PrismDev3/ifruit-learn/main/learn-1.svg">SVG</a></div></div>
+          <div class="row"><span class="label">Githack</span><div class="links"><a href="https://raw.githack.com/PrismDev3/ifruit-learn/main/learn-1.html">HTML</a><a href="https://raw.githack.com/PrismDev3/ifruit-learn/main/learn-1.svg">SVG</a></div></div>
+          <div class="row"><span class="label">Statically</span><div class="links"><a href="https://statically.io/gh/PrismDev3/ifruit-learn/main/learn-1.html">HTML</a><a href="https://statically.io/gh/PrismDev3/ifruit-learn/main/learn-1.svg">SVG</a></div></div>
+        </div>
+      </section>
+
+      <section aria-labelledby="run-title">
+        <h2 id="run-title">Run the demo</h2>
+        <p class="sub">These public addresses include “learn” in the repository path.</p>
+        <a class="run" href="learn-1.html">Launch iFruit OS HTML demo</a>
+        <p class="sub" style="margin-top:12px">Demo lock screen: <code>jamesisawesome</code></p>
+        <div class="links" style="margin-top:14px"><a href="learn-1.svg">Open the SVG demo</a><a href="https://prismdev3.github.io/ifruit-learn/">GitHub Pages home</a></div>
+      </section>
+
+      <section aria-labelledby="host-title">
+        <h2 id="host-title">Hosting</h2>
+        <p class="sub">GitHub Pages is live. Render can create a separate static mirror from the checked-in files.</p>
+        <div class="rows">
+          <div class="row"><span class="label">GitHub Pages</span><div class="links"><a href="https://prismdev3.github.io/ifruit-learn/">prismdev3.github.io/ifruit-learn</a></div></div>
+          <div class="row"><span class="label">Render static site</span><div class="links"><a href="https://render.com/deploy?repo=https%3A%2F%2Fgithub.com%2FPrismDev3%2Fifruit-learn">Deploy this build on Render</a></div></div>
+        </div>
+        <p class="sub">Render assigns an onrender.com URL when the deployment is created in your Render account.</p>
+      </section>
+
+      <section aria-labelledby="esm-title">
+        <h2 id="esm-title">ESM dependencies</h2>
+        <p class="sub">These are JavaScript package modules for developers; they do not launch the HTML app.</p>
+        <div class="rows">
+          <div class="row"><span class="label">React</span><div class="links"><a href="https://esm.sh/react@19.3.1">esm.sh/react</a></div></div>
+          <div class="row"><span class="label">React DOM</span><div class="links"><a href="https://esm.sh/react-dom@19.3.1/client">esm.sh/react-dom/client</a></div></div>
+          <div class="row"><span class="label">Motion</span><div class="links"><a href="https://esm.sh/motion@14.14.0/react">esm.sh/motion/react</a></div></div>
+          <div class="row"><span class="label">Lucide React</span><div class="links"><a href="https://esm.sh/lucide-react@1.76.0">esm.sh/lucide-react</a></div></div>
+        </div>
+      </section>
+
+      <footer>Standalone browser demo · External game and media services have their own availability and terms.</footer>
+    </main>
+  </div>
+</body>
+</html>
