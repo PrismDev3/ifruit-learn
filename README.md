@@ -2,27 +2,33 @@
 
 iFruit OS is a browser-based desktop simulation inspired by the iFruit universe. It is a website, not a real operating system.
 
-## Source and CDN links
+## Run the hosted demo
 
-| Format | HTML | SVG |
+- [Launch iFruit OS on GitHub Pages](https://prismdev3.github.io/ifruit-learn/learn-1.html) — the run URL includes “learn”.
+- Demo lock-screen password: `jamesisawesome`
+- [SVG demo](https://prismdev3.github.io/ifruit-learn/learn-1.svg) — open it as a standalone page.
+- [Public link hub](https://prismdev3.github.io/ifruit-learn/)
+
+## Build files and CDN links
+
+CDN endpoints below expose the HTML/SVG files as file content. Use the GitHub Pages link above to run the application.
+
+| Format | HTML file | SVG file |
 | --- | --- | --- |
-| jsDelivr | [Open](https://cdn.jsdelivr.net/gh/PrismDev3/ifruit-learn@main/learn-1.html) | [Open](https://cdn.jsdelivr.net/gh/PrismDev3/ifruit-learn@main/learn-1.svg) |
-| GitHub raw | [Open](https://raw.githubusercontent.com/PrismDev3/ifruit-learn/main/learn-1.html) | [Open](https://raw.githubusercontent.com/PrismDev3/ifruit-learn/main/learn-1.svg) |
-| Githack | [Open](https://raw.githack.com/PrismDev3/ifruit-learn/main/learn-1.html) | [Open](https://raw.githack.com/PrismDev3/ifruit-learn/main/learn-1.svg) |
-| Statically | [Open](https://statically.io/gh/PrismDev3/ifruit-learn/main/learn-1.html) | [Open](https://statically.io/gh/PrismDev3/ifruit-learn/main/learn-1.svg) |
+| jsDelivr | [View HTML source](https://cdn.jsdelivr.net/gh/PrismDev3/ifruit-learn@main/learn-1.html) | [View SVG source](https://cdn.jsdelivr.net/gh/PrismDev3/ifruit-learn@main/learn-1.svg) |
+| GitHub raw | [View HTML source](https://raw.githubusercontent.com/PrismDev3/ifruit-learn/main/learn-1.html) | [View SVG source](https://raw.githubusercontent.com/PrismDev3/ifruit-learn/main/learn-1.svg) |
+| Githack | [View HTML source](https://raw.githack.com/PrismDev3/ifruit-learn/main/learn-1.html) | [View SVG source](https://raw.githack.com/PrismDev3/ifruit-learn/main/learn-1.svg) |
+| Statically | [View HTML source](https://statically.io/gh/PrismDev3/ifruit-learn/main/learn-1.html) | [View SVG source](https://statically.io/gh/PrismDev3/ifruit-learn/main/learn-1.svg) |
 
 - [Build repository](https://github.com/PrismDev3/ifruit-learn)
-- [Public link page](https://prismdev3.github.io/ifruit-learn/)
-- [Launch the iFruit OS demo](https://prismdev3.github.io/ifruit-learn/learn-1.html) · Demo lock screen: `jamesisawesome`
-- [Open the SVG demo](https://prismdev3.github.io/ifruit-learn/learn-1.svg) — open it as a standalone page.
 
 ## Render
 
-[Deploy this static build on Render](https://render.com/deploy?repo=https%3A%2F%2Fgithub.com%2FPrismDev3%2Fifruit-learn). Render assigns its onrender.com URL when you create the deployment from your Render account.
+[Deploy the Render static site](https://render.com/deploy?repo=https%3A%2F%2Fgithub.com%2FPrismDev3%2Fifruit-learn). The blueprint is ready; sign-in and deployment confirmation are required. Render assigns an `onrender.com` URL after deployment.
 
 ## ESM package modules
 
-These developer links serve JavaScript dependencies; they do not launch the app:
+These are JavaScript import URLs for developers. The app's standalone build already bundles its dependencies.
 
 - [React](https://esm.sh/react@19.3.1)
 - [React DOM client](https://esm.sh/react-dom@19.3.1/client)
